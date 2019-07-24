@@ -16,6 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        window.backgroundColor = UIColor.white
+        self.window = window
+        // 通用界面设置(BD)
+        uiCommonSet()
+        window.rootViewController = XQTabCtr.tabCtr()
         return true
     }
 
@@ -42,5 +49,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+    
+    
+    func uiCommonSet() {
+        // navBar
+        let navBar = UINavigationBar.appearance()
+        navBar.tintColor = UIColor.white
+        navBar.barTintColor = UIColor.orange
+        navBar.isTranslucent = false
+        navBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white, NSAttributedString.Key.font: UIFont.systemFont(ofSize: 20)]
+        
+        // tabBar
+        let tabBar = UITabBar.appearance()
+        //        tabBar.barTintColor = UIColor.white
+        tabBar.isTranslucent = false
+        
+        let tabBarItem = UITabBarItem.appearance()
+        tabBarItem.setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: 12)], for: .normal)
+        tabBarItem.setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: 12)], for: .selected)
+    }
 }
 
