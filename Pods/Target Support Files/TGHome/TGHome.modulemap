@@ -1,0 +1,6 @@
+framework module TGHome {
+  umbrella header "TGHome-umbrella.h"
+
+  export *
+  module * { export * }
+}

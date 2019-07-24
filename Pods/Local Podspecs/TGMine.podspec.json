@@ -1,0 +1,23 @@
+{
+  "name": "TGMine",
+  "version": "1",
+  "summary": "TGMine.",
+  "description": "this is TGMine",
+  "homepage": "https://github.com/componentswift/TGMine.git",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "CasaTaloyum": "casatwy@msn.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/componentswift/TGMine.git",
+    "tag": "1"
+  },
+  "source_files": "TGMine/TGMine/**/*.{h,m,swift}",
+  "requires_arc": true
+}

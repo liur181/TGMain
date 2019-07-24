@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-TGPro/Pods-TGPro-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework
+${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework
+${BUILT_PRODUCTS_DIR}/TGCustom/TGCustom.framework
+${BUILT_PRODUCTS_DIR}/TGCustom_extension/TGCustom_extension.framework
+${BUILT_PRODUCTS_DIR}/TGHome/TGHome.framework
+${BUILT_PRODUCTS_DIR}/TGHome_extension/TGHome_extension.framework
+${BUILT_PRODUCTS_DIR}/TGMine/TGMine.framework
+${BUILT_PRODUCTS_DIR}/TGMine_extension/TGMine_extension.framework

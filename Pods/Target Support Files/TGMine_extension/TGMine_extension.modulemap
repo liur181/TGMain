@@ -1,0 +1,6 @@
+framework module TGMine_extension {
+  umbrella header "TGMine_extension-umbrella.h"
+
+  export *
+  module * { export * }
+}

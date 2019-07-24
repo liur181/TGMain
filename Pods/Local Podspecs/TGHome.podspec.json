@@ -1,0 +1,23 @@
+{
+  "name": "TGHome",
+  "version": "1",
+  "summary": "TGHome.",
+  "description": "this is TGHome",
+  "homepage": "https://github.com/componentswift/TGHome.git",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "CasaTaloyum": "casatwy@msn.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/componentswift/TGHome.git",
+    "tag": "1"
+  },
+  "source_files": "TGHome/TGHome/**/*.{h,m,swift}",
+  "requires_arc": true
+}

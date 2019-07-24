@@ -1,0 +1,6 @@
+framework module TGCustom_extension {
+  umbrella header "TGCustom_extension-umbrella.h"
+
+  export *
+  module * { export * }
+}

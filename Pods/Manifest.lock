@@ -1,0 +1,54 @@
+PODS:
+  - CTMediator (25)
+  - ESTabBarController-swift (2.7)
+  - TGCustom (1)
+  - TGCustom_extension (1):
+    - CTMediator
+  - TGHome (1)
+  - TGHome_extension (1):
+    - CTMediator
+  - TGMine (1)
+  - TGMine_extension (1):
+    - CTMediator
+
+DEPENDENCIES:
+  - ESTabBarController-swift
+  - TGCustom (from `../TGCustom`)
+  - TGCustom_extension (from `../TGCustom_extension`)
+  - TGHome (from `../TGHome`)
+  - TGHome_extension (from `../TGHome_extension`)
+  - TGMine (from `../TGMine`)
+  - TGMine_extension (from `../TGMine_extension`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CTMediator
+    - ESTabBarController-swift
+
+EXTERNAL SOURCES:
+  TGCustom:
+    :path: "../TGCustom"
+  TGCustom_extension:
+    :path: "../TGCustom_extension"
+  TGHome:
+    :path: "../TGHome"
+  TGHome_extension:
+    :path: "../TGHome_extension"
+  TGMine:
+    :path: "../TGMine"
+  TGMine_extension:
+    :path: "../TGMine_extension"
+
+SPEC CHECKSUMS:
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  ESTabBarController-swift: 4fb52ad03d94d0717ef97bc9eb09a5abfdded0a2
+  TGCustom: 07f5ca94586638e4c30d56432df0dfc05fbba9a8
+  TGCustom_extension: 926e55913aca316b441389fc17c247235ec0cbf4
+  TGHome: 1b5bbdb4c272c9f9233843ed15b04afc68ca2c29
+  TGHome_extension: 1bb9100ad108a7c96e2634a54fddaaa2339fbe7b
+  TGMine: a311f408343d5c177b8bafc9b7966fef4df20cb1
+  TGMine_extension: eadd074302cc96bee04a4b199989f2ca7c6926cd
+
+PODFILE CHECKSUM: dd05b5b6d24a4ff570ee13e99a9e6a4004fc5ac2
+
+COCOAPODS: 1.7.4

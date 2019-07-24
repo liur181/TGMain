@@ -1,0 +1,23 @@
+{
+  "name": "TGCustom",
+  "version": "1",
+  "summary": "TGCustom.",
+  "description": "this is TGCustom",
+  "homepage": "https://github.com/componentswift/TGCustom.git",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "CasaTaloyum": "casatwy@msn.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/componentswift/TGCustom.git",
+    "tag": "1"
+  },
+  "source_files": "TGCustom/TGCustom/**/*.{h,m,swift}",
+  "requires_arc": true
+}
